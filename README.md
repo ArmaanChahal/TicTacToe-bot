@@ -25,7 +25,7 @@ This is a console-based Tic-Tac-Toe game implemented in C++. The game supports H
 2. Compile the code using a C++ compiler:
 
    ```sh
-   g++ Main.cpp Board.cpp Player.cpp HumanPlayer.cpp AIPlayer.cpp Game.cpp -o tictactoe
+   g++ -std=c++11 Main.cpp Board.cpp Player.cpp HumanPlayer.cpp AIPlayer.cpp Game.cpp -o tictactoe
    ```
 
 3. Run the executable:
